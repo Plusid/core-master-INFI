@@ -33,8 +33,48 @@
       }
     }
   },
+  { 
+    "height": 100000,
+    "reward": 1000
+  },
+  { 
+    "height": 7884000,
+    "reward": 900
+  },
+  { 
+    "height": 15768000,
+    "reward": 800
+  },
+  { 
+    "height": 23652000,
+    "reward": 700
+  },
+  { 
+    "height": 31536000,
+    "reward": 600
+  },
+  { 
+    "height": 39420000,
+    "reward": 500
+  }, 
+  { 
+    "height": 47304000,
+    "reward": 400
+  }, 
   {
-    "height": 1000000,
-    "reward": 1000000
+    "height": 55188000,
+    "reward": 300
+  },
+  {
+    "height": 63072000,
+    "reward": 200
+  },
+  {
+    "height": 70956000,
+    "reward": 100
+  },
+  {
+    "height": 81864152,
+    "reward": 0
   }
 ]
