@@ -33,6 +33,19 @@
       }
     }
   },
+  {
+    "height": 26000,
+    "aip11": true
+  },
+  {
+    "height": 30000,
+    "htlcEnabled": true,
+    "p2p": {
+            "minimumVersions": ["^2.6 || ^2.6.0-next.9"]
+    },
+    "aip36": true,
+    "staticFees": true
+  },    
   { 
     "height": 100000,
     "reward": 1000
