@@ -3,11 +3,11 @@ module.exports = {
     "@arkecosystem/core-logger-pino": {},
     "@arkecosystem/core-p2p": {
         server: {
-            port: process.env.CORE_P2P_PORT || 4001,
+            port: process.env.CORE_P2P_PORT || 4002,
         },
     },
     "@arkecosystem/core-state": {},
-    "@arkecosystem/core-magistrate-transactions": {},
+    
     "@arkecosystem/core-database-postgres": {
         connection: {
             host: process.env.CORE_DB_HOST || "localhost",
@@ -23,26 +23,17 @@ module.exports = {
         allowedSenders: [],
         dynamicFees: {
             enabled: true,
-            minFeePool: 3000,
-            minFeeBroadcast: 3000,
+            minFeePool: 1,
+            minFeeBroadcast: 1,
             addonBytes: {
-                transfer: 100,
+                transfer: 1,
                 secondSignature: 250,
                 delegateRegistration: 400000,
                 vote: 100,
                 multiSignature: 500,
                 ipfs: 250,
-                multiPayment: 500,
-                delegateResignation: 100,
-                htlcLock: 100,
-                htlcClaim: 0,
-                htlcRefund: 0,
-                businessRegistration: 4000000,
-                businessUpdate: 500,
-                businessResignation: 100,
-                bridgechainRegistration: 4000000,
-                bridgechainUpdate: 500,
-                bridgechainResignation: 100,
+                multiPayment: 300,
+                delegateResignation: 10000,
             },
         },
     },
