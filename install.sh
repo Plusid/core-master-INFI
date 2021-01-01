@@ -245,7 +245,7 @@ ark config:publish
 success "Installed Core!"
 
 readNonempty() {
-    prompt=${2}
+    prompt=${1}
     answer=""
     while [ -z "${answer}" ] ; do
         read -p "${prompt}" answer
