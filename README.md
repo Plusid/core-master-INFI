@@ -1,7 +1,7 @@
 # Core Infinity
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Plusid/core-master/core-master-INFI/banner_infi.png" />
+    <img src="https://raw.githubusercontent.com/InfinitySoftwareLTD/core-master-INFI/chore/bridgechain-changes/banner_infi.png" />
 </p>
 
 [![License: MIT](https://badgen.now.sh/badge/license/MIT/green)](https://opensource.org/licenses/MIT)
