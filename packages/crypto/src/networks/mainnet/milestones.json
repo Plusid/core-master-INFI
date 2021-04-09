@@ -49,6 +49,10 @@
   { 
     "height": 100000,
     "reward": 1000
+  },    
+  { 
+    "height": 2250000,
+    "staticFees": false
   },
   { 
     "height": 7884000,
