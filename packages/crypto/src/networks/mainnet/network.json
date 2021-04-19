@@ -13,6 +13,6 @@
   "client": {
     "token": "INFI",
     "symbol": "∞",
-    "explorer": "https://explorer.infinitysolutions.io/#/"
+    "explorer": "https://explorer.infinitysolutions.io"
   }
 }
