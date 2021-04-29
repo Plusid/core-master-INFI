@@ -31,12 +31,50 @@ bash install.sh
 # choose a network
 Mainnet
 
+# Start Relay
+cd core-master-INFI
+infinity relay:start
+
+
 # config database
 
 ```
 
 </details>
 
+
+#### Become a delegate (forge)
+
+<details><summary>Configuration forger</summary>
+
+```bash
+# Entry your delegate phrase (wallet passphrase) as forger
+infinity config:forger
+
+# Start Forging
+infinity forger:start
+
+```
+
+</details>
+
+#### Check status and logs relay and delegate
+
+<details><summary>Configuration forger</summary>
+
+```bash
+# status
+pm2 status
+
+# logs relay
+pm2 logs infinity-relay
+
+# logs forging
+pm2 logs infinity-forger
+
+```
+
+</details>
 
 ## API Documentation
 
