@@ -34,7 +34,82 @@
     }
   },
   {
-    "height": 1000000,
-    "reward": 1000000
+    "height": 26000,
+    "aip11": true
+  },
+  {
+    "height": 30000,
+    "htlcEnabled": true,
+    "aip36": true,
+    "staticFees": true,
+    "p2p": {
+            "minimumVersions": ["^2.6 || ^2.6.0-next.9"]
+    }    
+  },    
+  { 
+    "height": 100000,
+    "reward": 1000
+  },    
+  { 
+    "height": 2250000,
+    "staticFees": false
+  },
+  { 
+    "height": 2665000,
+    "block": {
+        "maxTransactions": 500,
+        "maxPayload": 21000000
+    },
+    "multiPaymentLimit": 300,
+    "staticFees": false,
+    "fees": {
+      "staticFees": {
+        "transfer": 90,
+        "htlcLock": 300,
+        "htlcClaim": 0,
+        "htlcRefund": 0,
+        "multiPayment": 100000
+      }
+    }
+  },
+  { 
+    "height": 7884000,
+    "reward": 900
+  },
+  { 
+    "height": 15768000,
+    "reward": 800
+  },
+  { 
+    "height": 23652000,
+    "reward": 700
+  },
+  { 
+    "height": 31536000,
+    "reward": 600
+  },
+  { 
+    "height": 39420000,
+    "reward": 500
+  }, 
+  { 
+    "height": 47304000,
+    "reward": 400
+  }, 
+  {
+    "height": 55188000,
+    "reward": 300
+  },
+  {
+    "height": 63072000,
+    "reward": 200
+  },
+  {
+    "height": 70956000,
+    "reward": 100
+  },
+  {
+    "height": 81864152,
+    "reward": 0
   }
 ]
