@@ -40,11 +40,11 @@
   {
     "height": 30000,
     "htlcEnabled": true,
+    "aip36": true,
+    "staticFees": true,
     "p2p": {
             "minimumVersions": ["^2.6 || ^2.6.0-next.9"]
-    },
-    "aip36": true,
-    "staticFees": true
+    }    
   },    
   { 
     "height": 100000,
@@ -53,6 +53,24 @@
   { 
     "height": 2250000,
     "staticFees": false
+  },
+  { 
+    "height": 2665000,
+    "block": {
+        "maxTransactions": 500,
+        "maxPayload": 21000000
+    },
+    "multiPaymentLimit": 300,
+    "staticFees": false,
+    "fees": {
+      "staticFees": {
+        "transfer": 90,
+        "htlcLock": 300,
+        "htlcClaim": 0,
+        "htlcRefund": 0,
+        "multiPayment": 100000
+      }
+    }
   },
   { 
     "height": 7884000,
